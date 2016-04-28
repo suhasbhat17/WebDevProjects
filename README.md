@@ -12,3 +12,10 @@ List
 7.GAS Pump Project
 8.AngularJS $http Project
 9.Google App Engine: File Operations Project
+10.Customer Details Using AngularJS, NodeJS and Express.
+11.Light Bulb Lumens Calculator using AnglaurJS, Bootstrap, HTML5 and CSS3.
+12.Messenger App: RESTful Application, JAX-RS, MAVEN.
+13.Student Records : Spring MVC, Hibernate ORM, MAVEN
+14.Tiles Employee Records : Spring MVC, MAVEN, SPring JDBC, Apache Tiles.
+15.Simple Quiz Application : HTML5, CSS3, JavaScript, AngularJS.
+16. Simple $http Service Demonstration: AngularJS

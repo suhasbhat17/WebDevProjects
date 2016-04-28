@@ -1,0 +1,19 @@
+<h2>Customers</h2>
+Filter:<input type="text" ng-model="custFilter.name"/><br>
+    <table>
+    <tr>
+        <th ng-click="doSort('name')">Name</th>
+        <th ng-click="doSort('buy')">Date</th>
+        <th ng-click="doSort('cost')">Cost</th>
+        <th>&nbsp;</th>
+        </tr>
+        <tr ng-repeat="cust in customers | filter:custFilter | orderBy:sortBy:reverse">
+        <td>{{ cust.name | uppercase }}</td>
+        <td>{{ cust.buy | date }}</td>
+        <td>{{ cust.cost | currency }}</td>
+        <td><a href="#/orders/{{ cust.id }}">View Orders</a></td>
+        </tr>
+    </table>
+
+
+<h4>Total customers </h4> <span>{{ customers.length }}</span>
