@@ -19,3 +19,4 @@ List
 14.Tiles Employee Records : Spring MVC, MAVEN, SPring JDBC, Apache Tiles.
 15.Simple Quiz Application : HTML5, CSS3, JavaScript, AngularJS.
 16. Simple $http Service Demonstration: AngularJS
+17. Quiz Application in AngularJS
